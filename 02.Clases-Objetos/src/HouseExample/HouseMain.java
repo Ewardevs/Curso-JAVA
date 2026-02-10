@@ -5,7 +5,7 @@ public class HouseMain {
         House myHouse = new House();
         myHouse.setDoors(2);
         myHouse.setWindows(4);
-        myHouse.setSize(18S);
+        myHouse.setSize(18);
 
         House myHouse2 = new House(2,4,11);
 
@@ -19,4 +19,5 @@ public class HouseMain {
         IO.println("el area de la casa 2 es de :"+area2);
 
     }
+
 }
