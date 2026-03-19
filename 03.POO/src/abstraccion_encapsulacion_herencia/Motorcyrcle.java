@@ -2,10 +2,16 @@ package abstraccion_encapsulacion_herencia;
 
 public class Motorcyrcle extends Vehicle {
     private boolean hasSideCar;
+    private Engine engine;
 
     public Motorcyrcle(String model, Integer year, String brand, boolean hasSideCar) {
         super(model, year, brand);
         this.hasSideCar = hasSideCar;
+        this.engine = new Engine();
+    }
+
+    public void start(){
+        this.engine.start();
     }
 
     public void hacerweelee(){
